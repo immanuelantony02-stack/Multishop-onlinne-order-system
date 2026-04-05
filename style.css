@@ -1,0 +1,42 @@
+body {
+    font-family: "Poppins", system-ui, sans-serif;
+    background-color: #F3F4F6;
+    color: #111827;
+}
+
+/* FORCE TEXT VISIBILITY */
+table, th, td {
+    color: #111827 !important;
+}
+
+/* Fix Bootstrap highlight bug */
+.table td, .table th {
+    background-color: transparent !important;
+}
+
+/* BADGES FIX */
+.badge {
+    color: #fff !important;
+    font-size: 12px;
+    padding: 5px 8px;
+}
+
+/* STATUS COLORS */
+.status-unpaid { background:#6B7280; }
+.status-paid { background:#2563EB; }
+.status-placed { background:#6B7280; }
+.status-preparing { background:#F97316; }
+.status-ready { background:#10B981; }
+.status-completed { background:#047857; }
+.status-cancelled { background:#DC2626; }
+
+/* Buttons */
+.btn-primary {
+    background-color: #2563EB;
+    border-color: #2563EB;
+}
+
+.btn-success {
+    background-color: #10B981;
+    border-color: #10B981;
+}
